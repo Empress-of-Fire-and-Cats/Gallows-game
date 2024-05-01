@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра "Виселица"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <p class="logo">Виселица</p>
+        <div class="wrapper_lifes">
+            <div class="wrapper_lifes_counter">
+                <p class="lifes_text">Жизни: </p>
+                <div class="dead_play_again">
+                    <p class="dead_text">Вас повесили. <br> Попробовать снова?</p>
+                    <a href="index.html" class="">
+                        <img class="play" src="img/play.png" alt="">
+                    </a>
+                </div>
+                <div class="wrapper_drops">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 1">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 2">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 3">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 4">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 5">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 6">
+                    <img class="blood_drop" src="img/blood-drop.png" alt="жизнь 7">
+                </div>
+            </div>
+            <div class="wrapper_img_gallows">
+                <div class="gallows_back">
+                    <img class="gallows" src="img/hangman-gallows.png" alt="виселица">
+                    <img class="gallows" src="img/hangman-head.png" alt="голова">
+                    <img class="gallows" src="img/hangman-body.png" alt="тело">
+                    <img class="gallows" src="img/hangman-left-arm.png" alt="левая рука">
+                    <img class="gallows" src="img/hangman-right-arm.png" alt="правая рука">
+                    <img class="gallows" src="img/hangman-left-leg.png" alt="левая нога">
+                    <img class="gallows" src="img/hangman-dead.png" alt="мертвец">
+                </div>
+            </div>
+        </div>
+        <div class="win_block">
+            <div class="win_text">
+                <p>Победа!</p>
+                <img class="crown" src="img/crown.png" alt="">
+            </div>
+            <div class="play_again">
+                <p>Попробовать снова?</p>
+                <a href="index.html" class="">
+                    <img class="play" src="img/play.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="word_box">
+        </div>
+        <div class="text_clue">Отгадайте случайное слово, вводя буквы с клавиатуры <br> Если проиграете — будете повешены</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

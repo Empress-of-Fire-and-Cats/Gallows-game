@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Zaychik";
+    src: url("fonts/Zaychik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "JejuMyeongjo";
+    src: url("fonts/JejuMyeongjo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "JejuMyeongjo";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    font-family: "Zaychik";
+    padding-top: 25px;
+    color: white;
+    font-size: 110px;
+    margin: 0;
+}
+
+.wrapper_lifes {
+    display: flex;
+    width: 100%;
+    max-width: 1230px;
+}
+
+.wrapper_lifes_counter {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+}
+
+.lifes_text {
+    font-size: 32px;
+    margin: 0;
+}
+
+.dead_play_again {
+    display: none;
+}
+
+.dead_text {
+    font-size: 32px;
+    color: rgb(199, 0, 0);
+    font-weight: bold;
+}
+
+.blood_drop {
+    margin-left: 10px;
+    width: 27px;
+}
+
+.wrapper_img_gallows {
+    width: 100%;
+}
+
+.gallows_back {
+    width: 223px;
+    height: 283px;
+    border-radius: 105px;
+    background-image: radial-gradient(#858585, #000000);
+    position: relative;
+}
+
+.gallows {
+    width: 75%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+.win_text {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.crown {
+    width: 100px;
+}
+
+.play_again {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.play {
+    width: 80px;
+    height: 80px;
+}
+
+.word_box {
+    display: flex;
+    margin-bottom: 90px;
+    font-size: 65px;
+    font-family: "Inter";
+}
+
+.letter {
+    text-align: center;
+    margin-right: 15px;
+    border-bottom: 5px solid white;
+    width: 60px;
+    height: 75px;
+}
+
+.text_clue {
+    padding-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
